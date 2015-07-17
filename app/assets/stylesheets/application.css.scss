@@ -13,13 +13,14 @@
  *= require_tree .
  *= require_self
  */
-body {
- 	background: url(<%= asset_path "cityscape.jpeg" %>) no-repeat;
- 	background-size: cover;
- }
 
-html, body, #comments{
+
+html, body, #comments, #logo{
 	font-family: 'Contrail One', sans-serif;
+}
+
+.author, .comments_title{
+	color: #000000
 }
 
 #logo {
